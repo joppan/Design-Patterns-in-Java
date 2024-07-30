@@ -1,6 +1,8 @@
-interface PizzaBuilder {
-    void buildDough();
-    void buildSauce();
-    void buildTopping();
-    Pizza getPizza();
+public interface PizzaBuilder {
+
+    public void buildDough();
+    public void buildSauce();
+    public void buildTopping();
+
+    public Pizza getPizza();
 }
